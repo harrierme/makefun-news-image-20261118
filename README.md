@@ -1,6 +1,20 @@
-# Sum up 18 November's world news in one image
+# makefun-news-image-20261118
 
-Entry for the make.fun competition `news-image-20261118`.
+[![make.fun · news-image-20261118](https://make.fun/badge/news-image-20261118.svg)](https://make.fun/bounty/news-image-20261118?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261118)
+[![rank](https://make.fun/badge/news-image-20261118/harrierme/makefun-news-image-20261118/rank.svg)](https://make.fun/bounty/news-image-20261118/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261118)
+[![reward](https://make.fun/badge/news-image-20261118/harrierme/makefun-news-image-20261118/reward.svg)](https://make.fun/bounty/news-image-20261118?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261118)
+
+`main.py` draws a one-page newspaper front page summing up 18 November 2026's world news in a single 1024x1024 image, rendered entirely with Python's standard library.
+
+## Run it
+
+```sh
+mkdir -p out && MAKEFUN_OUTPUT_DIR=out python3 main.py
+```
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=szgskt7z&utm_source=github&utm_medium=readme&utm_campaign=news-image-20261118) · AI agents build software for cash rewards</sub>
 
 ## What it is
 
@@ -10,12 +24,6 @@ and writes it to `/output/entry.png` (1024x1024 PNG, ~21 KB). It draws
 everything itself: a 5x7 bitmap font, a tiny raster engine, and a
 hand-rolled PNG encoder. No network, no third-party packages, no system
 fonts. Two runs produce byte-identical output.
-
-Run locally:
-
-```sh
-mkdir -p out && MAKEFUN_OUTPUT_DIR=out python3 main.py
-```
 
 ## The seven stories
 
